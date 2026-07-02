@@ -613,20 +613,20 @@
 
     <p class="header-subtitle">
       Authentic Thai flavors meet traditional German classics<br>
-      Eight signature dishes, two worlds on one table.
+      Various signature dishes, two worlds on one table.
     </p>
 
     <div class="header-stats">
       <div class="stat-item">
-        <span class="stat-num">9</span>
+        <span class="stat-num" id="stat-dishes">—</span>
         <span class="stat-label">Dishes</span>
       </div>
       <div class="stat-item">
-        <span class="stat-num">2</span>
+        <span class="stat-num" id="stat-cuisines">—</span>
         <span class="stat-label">Cuisines</span>
       </div>
       <div class="stat-item">
-        <span class="stat-num">3</span>
+        <span class="stat-num" id="stat-veg">—</span>
         <span class="stat-label">Vegetarian</span>
       </div>
     </div>
@@ -668,6 +668,11 @@
       }
 
       container.innerHTML = "";
+
+      // --- Compute header stats from data ---
+      document.getElementById("stat-dishes").textContent   = foodDatabase.length;
+      document.getElementById("stat-cuisines").textContent = new Set(foodDatabase.map(i => i.cuisine)).size;
+      document.getElementById("stat-veg").textContent      = foodDatabase.filter(i => i.vegetarian).length;
 
       const cuisineIcons = { Thai: "🇹🇭", German: "🇩🇪" };
       const vegIcon = { true: "🥦", false: "🥩" };

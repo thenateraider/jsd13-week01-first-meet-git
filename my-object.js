@@ -14,7 +14,7 @@ let foodDatabase = [
         cuisine: "German",
         origin: "Germany",
         vegetarian: false,
-        image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Bratwurst_%288352858827%29.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUbDwSTodrR1BffibXoYex9Mebkwof4SdgxYWbs2ml3A&s=10"
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ let foodDatabase = [
         cuisine: "Thai",
         origin: "Thailand",
         vegetarian: false,
-        image: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Tom_yum_goong-01.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3mIztlv9CnUt0adeHTLi5MCd-poPAmwDihfEcUp2ycQ&s=10"
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ let foodDatabase = [
         cuisine: "German",
         origin: "Germany",
         vegetarian: false,
-        image: "https://upload.wikimedia.org/wikipedia/commons/4/40/Wiener_Schnitzel.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9tuhMxgtx164hG0lKVV2zehTfAFfCYlXobmDBDXlEg&s=10"
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ let foodDatabase = [
         cuisine: "Thai",
         origin: "Thailand",
         vegetarian: false,
-        image: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Thai_green_chicken_curry_and_roti.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOjCrcU0CQsa8OSciijjw1Ah6S35y_WVyLQWZjZl6FTqgPOYTyf92i7lW&s=10"
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ let foodDatabase = [
         cuisine: "German",
         origin: "Germany",
         vegetarian: true,
-        image: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Breze.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC4NayJwGamYRjs7RAnTJNR_RNlHZPpIYB6vOG8wRumVzfTCKAmbeiN2g&s=10"
     },
     {
         id: 7,
@@ -62,7 +62,7 @@ let foodDatabase = [
         cuisine: "German",
         origin: "Germany",
         vegetarian: true,
-        image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Schwarzw%C3%A4lder_Kirschtorte.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjejyNnaLRn9syt7a1lxjgBWKsHFhUM0NggQFkwuYdPbYMk6lqq3F8wOY&s=10"
     },
     {
         id: 9,
@@ -70,7 +70,7 @@ let foodDatabase = [
         cuisine: "German",
         origin: "Germany",
         vegetarian: false,
-        image: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sauerbraten-gebraten.jpg"
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvonpN72LeABuMkCM9tFkRfuYWAVh4TweLZwSVYinBYjVL3ZGliW6e068&s=10"
     }
 ];
 console.log(foodDatabase[8].name);
