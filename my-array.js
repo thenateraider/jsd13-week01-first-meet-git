@@ -6,6 +6,8 @@ let food = [
     "Green Curry",
     "Brezel",
     "Som Tum",
-    "Schwarzwälder Kirschtorte"
+    "Schwarzwälder Kirschtorte",
+    "Sauerbraten",
+
 ];
 console.log(food[3]);

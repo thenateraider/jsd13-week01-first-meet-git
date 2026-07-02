@@ -63,6 +63,14 @@ let foodDatabase = [
         origin: "Germany",
         vegetarian: true,
         image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Schwarzw%C3%A4lder_Kirschtorte.jpg"
+    },
+    {
+        id: 9,
+        name: "Sauerbraten",
+        cuisine: "German",
+        origin: "Germany",
+        vegetarian: false,
+        image: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sauerbraten-gebraten.jpg"
     }
 ];
-console.log(foodDatabase[7].name);
+console.log(foodDatabase[8].name);

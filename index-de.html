@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer">
-  <meta name="description" content="Thai-German Fusion Bistro — Authentic Thai flavors meet traditional German classics in one premium menu.">
-  <title>Thai-German Fusion Bistro</title>
+  <meta name="description" content="Thai-Deutsch Fusion Bistro — Authentische Thai-Aromen treffen traditionelle deutsche Klassiker auf einem einzigartigen Tisch.">
+  <title>Thai-Deutsch Fusion Bistro</title>
 
-  <!-- Google Fonts: Google Sans / Outfit -->
+  <!-- Google Fonts: Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -61,7 +61,7 @@
       line-height: 1.6;
     }
 
-    /* ===== FLOATING PARTICLES (decorative) ===== */
+    /* ===== FLOATING PARTICLES (dekorativ) ===== */
     body::before {
       content: '';
       position: fixed;
@@ -74,7 +74,7 @@
       z-index: 0;
     }
 
-    /* ===== HEADER ===== */
+    /* ===== KOPFZEILE (HEADER) ===== */
     header {
       position: relative;
       z-index: 1;
@@ -83,7 +83,7 @@
       overflow: hidden;
     }
 
-    /* German Flag Stripe Bar on top */
+    /* Deutschlandfahne — Streifen oben */
     .flag-stripe {
       position: absolute;
       top: 0;
@@ -97,7 +97,7 @@
     .flag-stripe span:nth-child(2) { flex: 1; background: #dd0000; }
     .flag-stripe span:nth-child(3) { flex: 1; background: #ffcc00; }
 
-    /* Glow behind title */
+    /* Glüheffekt hinter dem Titel */
     .header-glow {
       position: absolute;
       top: 50%;
@@ -157,13 +157,13 @@
     .header-subtitle {
       font-size: 1.05rem;
       color: rgba(240, 220, 160, 0.75);
-      max-width: 520px;
+      max-width: 540px;
       margin: 0 auto 32px;
       font-weight: 400;
       line-height: 1.7;
     }
 
-    /* Stats row */
+    /* Statistik-Leiste */
     .header-stats {
       display: inline-flex;
       gap: 0;
@@ -206,7 +206,7 @@
       display: block;
     }
 
-    /* ===== SECTION TITLE ===== */
+    /* ===== ABSCHNITT-TITEL ===== */
     .section-header {
       position: relative;
       z-index: 1;
@@ -246,7 +246,7 @@
       font-size: 1.2rem;
     }
 
-    /* ===== GRID ===== */
+    /* ===== RASTER (GRID) ===== */
     #menu-container {
       position: relative;
       z-index: 1;
@@ -258,7 +258,7 @@
       padding: 0 24px;
     }
 
-    /* ===== CARD ===== */
+    /* ===== KARTE (CARD) ===== */
     .menu-card {
       background: var(--card-bg);
       border-radius: var(--radius-xl);
@@ -294,7 +294,7 @@
       border-color: rgba(255,204,0,0.35);
     }
 
-    /* ===== CARD IMAGE ===== */
+    /* ===== KARTENBILD ===== */
     .card-img-container {
       position: relative;
       width: 100%;
@@ -315,7 +315,7 @@
       transform: scale(1.1);
     }
 
-    /* Image overlay gradient */
+    /* Bildverlauf-Overlay */
     .card-img-container::after {
       content: '';
       position: absolute;
@@ -367,7 +367,7 @@
       color: #ddd;
     }
 
-    /* Gold number on image */
+    /* Goldene Nummer auf dem Bild */
     .card-number {
       position: absolute;
       bottom: 12px;
@@ -381,7 +381,7 @@
       user-select: none;
     }
 
-    /* ===== CARD BODY ===== */
+    /* ===== KARTENINHALT ===== */
     .card-body {
       padding: 22px 22px 24px;
       position: relative;
@@ -413,7 +413,7 @@
       opacity: 0.8;
     }
 
-    /* Info row */
+    /* Info-Zeile */
     .card-info-row {
       display: flex;
       gap: 10px;
@@ -451,7 +451,7 @@
       color: var(--text-main);
     }
 
-    /* German flag micro-accent line at bottom */
+    /* Deutschlandfahne — Akzentlinie unten auf Karte */
     .card-accent {
       margin-top: 18px;
       display: flex;
@@ -459,12 +459,12 @@
       border-radius: 100px;
       overflow: hidden;
     }
-    /* German flag accent (default) */
+    /* Deutschlandfahne-Akzent (Standard) */
     .card-accent span:nth-child(1) { flex: 1; background: #2a2a2a; }
     .card-accent span:nth-child(2) { flex: 1; background: #dd0000; }
     .card-accent span:nth-child(3) { flex: 1; background: #ffcc00; }
 
-    /* Thai flag accent override — 5 stripes: Red · White · Blue · White · Red */
+    /* Thailändische Flagge Akzent — 5 Streifen: Rot · Weiß · Blau · Weiß · Rot */
     .card-accent.thai {
       background: linear-gradient(to right,
         #A51931 0%   20%,
@@ -476,7 +476,7 @@
     }
     .card-accent.thai span { display: none; }
 
-    /* ===== ERROR STATE ===== */
+    /* ===== FEHLERMELDUNG ===== */
     .error-msg {
       grid-column: 1 / -1;
       text-align: center;
@@ -489,7 +489,7 @@
       font-size: 1rem;
     }
 
-    /* ===== FOOTER ===== */
+    /* ===== FUßZEILE ===== */
     footer {
       position: relative;
       z-index: 1;
@@ -508,7 +508,7 @@
       font-size: 1.1rem;
     }
 
-    /* ===== SCROLL REVEAL ANIMATION ===== */
+    /* ===== EINBLEND-ANIMATION ===== */
     .menu-card {
       animation: fadeSlideUp 0.55s ease both;
     }
@@ -524,7 +524,6 @@
       }
     }
 
-    /* Stagger delay applied via JS */
     .menu-card:nth-child(2) { animation-delay: 0.07s; }
     .menu-card:nth-child(3) { animation-delay: 0.14s; }
     .menu-card:nth-child(4) { animation-delay: 0.21s; }
@@ -591,12 +590,12 @@
 </head>
 <body>
 
-  <!-- Language Switcher -->
-  <a href="index-de.html" class="lang-switcher" title="Zur deutschen Version wechseln">
-    <span class="ls-flag">🇩🇪</span> Deutsch
+  <!-- Sprachumschalter -->
+  <a href="index.html" class="lang-switcher" title="Switch to English">
+    <span class="ls-flag">🇬🇧</span> English
   </a>
 
-  <!-- ===== HEADER ===== -->
+  <!-- ===== KOPFZEILE ===== -->
   <header>
     <div class="flag-stripe">
       <span></span><span></span><span></span>
@@ -605,36 +604,36 @@
 
     <div class="header-badge">
       <span class="dot"></span>
-      Thai · German Fusion
+      Thai · Deutsch · Fusion
       <span class="dot"></span>
     </div>
 
-    <h1>Thai-German<br>Fusion Bistro</h1>
+    <h1>Thai-Deutsch<br>Fusion Bistro</h1>
 
     <p class="header-subtitle">
-      Authentic Thai flavors meet traditional German classics<br>
-      Eight signature dishes, two worlds on one table.
+      Authentische Thai-Aromen treffen traditionelle deutsche Klassiker.<br>
+      Neun Signature-Gerichte — zwei Welten auf einem Tisch.
     </p>
 
     <div class="header-stats">
       <div class="stat-item">
         <span class="stat-num">9</span>
-        <span class="stat-label">Dishes</span>
+        <span class="stat-label">Gerichte</span>
       </div>
       <div class="stat-item">
         <span class="stat-num">2</span>
-        <span class="stat-label">Cuisines</span>
+        <span class="stat-label">Küchen</span>
       </div>
       <div class="stat-item">
         <span class="stat-num">3</span>
-        <span class="stat-label">Vegetarian</span>
+        <span class="stat-label">Vegetarisch</span>
       </div>
     </div>
   </header>
 
-  <!-- ===== MENU SECTION ===== -->
+  <!-- ===== SPEISEKARTE ===== -->
   <div class="section-header">
-    <div class="section-title">Our Menu</div>
+    <div class="section-title">Unsere Speisekarte</div>
     <div class="section-divider">
       <span class="line"></span>
       <span class="icon">🍽️</span>
@@ -643,19 +642,19 @@
   </div>
 
   <div id="menu-container">
-    <!-- Populated by JavaScript -->
+    <!-- Wird per JavaScript befüllt -->
   </div>
 
-  <!-- ===== FOOTER ===== -->
+  <!-- ===== FUßZEILE ===== -->
   <footer>
     <p>
       <span class="flag-emoji">🇹🇭</span>
-      &nbsp;Thai-German Fusion Bistro · Where East meets West&nbsp;
+      &nbsp;Thai-Deutsch Fusion Bistro · Wo Asien auf Europa trifft&nbsp;
       <span class="flag-emoji">🇩🇪</span>
     </p>
   </footer>
 
-  <!-- Data source -->
+  <!-- Datenquelle -->
   <script src="my-object.js"></script>
 
   <script>
@@ -663,15 +662,22 @@
       const container = document.getElementById("menu-container");
 
       if (typeof foodDatabase === 'undefined' || !Array.isArray(foodDatabase)) {
-        container.innerHTML = `<div class="error-msg">⚠️ Error: foodDatabase not found. Please ensure my-object.js is loaded correctly.</div>`;
+        container.innerHTML = `<div class="error-msg">⚠️ Fehler: foodDatabase nicht gefunden. Bitte sicherstellen, dass my-object.js korrekt geladen ist.</div>`;
         return;
       }
 
       container.innerHTML = "";
 
-      const cuisineIcons = { Thai: "🇹🇭", German: "🇩🇪" };
-      const vegIcon = { true: "🥦", false: "🥩" };
-      const vegLabel = { true: "Vegetarian", false: "Non-Veg" };
+      // German cuisine label mapping
+      const cuisineLabels = { Thai: "Thailändisch", German: "Deutsch" };
+      const cuisineIcons  = { Thai: "🇹🇭", German: "🇩🇪" };
+
+      // German diet labels
+      const vegIcon  = { true: "🥦", false: "🥩" };
+      const vegLabel = { true: "Vegetarisch", false: "Mit Fleisch" };
+
+      // German origin mapping
+      const originLabels = { Thailand: "Thailand", Germany: "Deutschland" };
 
       foodDatabase.forEach((item, index) => {
         const card = document.createElement("div");
@@ -681,9 +687,12 @@
         const cuisineClass = item.cuisine.toLowerCase() === 'thai' ? 'badge-thai' : 'badge-german';
         const vegClass     = item.vegetarian ? 'badge-veg' : 'badge-non-veg';
         const accentClass  = item.cuisine.toLowerCase() === 'thai' ? 'thai' : '';
-        const flagIcon = cuisineIcons[item.cuisine] || "🍴";
-        const vegEmoji = vegIcon[item.vegetarian];
-        const vegText = vegLabel[item.vegetarian];
+
+        const flagIcon      = cuisineIcons[item.cuisine]  || "🍴";
+        const cuisineDE     = cuisineLabels[item.cuisine] || item.cuisine;
+        const vegEmoji      = vegIcon[item.vegetarian];
+        const vegText       = vegLabel[item.vegetarian];
+        const originDE      = originLabels[item.origin]   || item.origin;
 
         card.innerHTML = `
           <div class="card-img-container">
@@ -694,7 +703,7 @@
               onerror="this.src='https://placehold.co/600x400/1a1a1a/ffcc00?text=${encodeURIComponent(item.name)}'"
             >
             <div class="badges">
-              <span class="badge ${cuisineClass}">${item.cuisine}</span>
+              <span class="badge ${cuisineClass}">${cuisineDE}</span>
               <span class="badge ${vegClass}">${vegText}</span>
             </div>
             <div class="card-number">${String(index + 1).padStart(2, '0')}</div>
@@ -707,24 +716,24 @@
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                 <circle cx="12" cy="10" r="3"/>
               </svg>
-              ${item.origin}
+              Herkunft: ${originDE}
             </div>
 
             <div class="card-info-row">
               <div class="info-chip">
                 <span class="info-chip-icon">${flagIcon}</span>
-                <span class="info-chip-label">Cuisine</span>
-                <span class="info-chip-value">${item.cuisine}</span>
+                <span class="info-chip-label">Küche</span>
+                <span class="info-chip-value">${cuisineDE}</span>
               </div>
               <div class="info-chip">
                 <span class="info-chip-icon">${vegEmoji}</span>
-                <span class="info-chip-label">Diet</span>
+                <span class="info-chip-label">Ernährung</span>
                 <span class="info-chip-value">${vegText}</span>
               </div>
               <div class="info-chip">
                 <span class="info-chip-icon">⭐</span>
-                <span class="info-chip-label">Signature</span>
-                <span class="info-chip-value">Classic</span>
+                <span class="info-chip-label">Kategorie</span>
+                <span class="info-chip-value">Klassiker</span>
               </div>
             </div>
 
